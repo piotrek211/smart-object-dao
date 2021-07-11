@@ -5,6 +5,7 @@
 
 SOReferenceModel1Dot1::SOReferenceModel1Dot1() {
   m_pcRng = CRandom::CreateRNG("argos");
+  movingState = 0;
 }
 
 /****************************************/

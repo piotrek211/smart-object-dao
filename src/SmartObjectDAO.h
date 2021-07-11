@@ -119,7 +119,7 @@ namespace argos {
 			 */
 			CRandom::CRNG* m_pcRng;
 
-			UInt8 movingState = 0;
+			UInt8 movingState;
 
 	};
 }
